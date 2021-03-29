@@ -1,12 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,z;
-	scanf("%d %d",&a,&b);
+	int n,c,z,k;
+	scanf("%d %d",&n,&c);
+	k=n;
 	do
 	{
-		a++;
-		z=a%10;
-	}while(z!=b);
-	printf("%d",a);
+		k++;
+		z=k%10;
+	}while(z!=c);
+	printf("%d",k);
+	
+	return 0;
 }
